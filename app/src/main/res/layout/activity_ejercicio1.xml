@@ -61,7 +61,7 @@
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vista1"
-        app:layout_constraintBottom_toToOpf="@id/guideline2"
+
         android:background="@color/gre000">
 
     <LinearLayout
