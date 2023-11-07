@@ -24,16 +24,15 @@
         android:onClick="iniciarActividad"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintBottom_toTopOf="@+id/button1"
     />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonejer2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="boton"
-
+        android:text="Ejercicio 2"
+        android:onClick="iniciarActividadejercicio2"
         app:layout_constraintTop_toBottomOf="@+id/buttontres_en_raya"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

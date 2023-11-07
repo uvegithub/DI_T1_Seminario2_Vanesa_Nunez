@@ -17,4 +17,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, Actividad_tresenraya::class.java)
         startActivity(intent)
     }
+
+    fun iniciarActividadejercicio2 (view : View){
+        val intent = Intent(this, Ejercicio2::class.java)
+        startActivity(intent)
+    }
 }
