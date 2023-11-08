@@ -38,5 +38,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         />
 
+    <Button
+        android:id="@+id/buttonejer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 3"
+        android:onClick="iniciarActividadejercicio3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonejer2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

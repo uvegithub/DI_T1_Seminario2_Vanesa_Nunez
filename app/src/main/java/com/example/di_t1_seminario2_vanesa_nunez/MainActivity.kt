@@ -22,4 +22,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, Ejercicio2::class.java)
         startActivity(intent)
     }
+
+    fun iniciarActividadejercicio3 (view : View){
+        val intent = Intent(this, Ejercicio3::class.java)
+        startActivity(intent)
+    }
 }
